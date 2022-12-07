@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="addproduct.css">
+
+</head>
+
+<body>
+    <div class="dshbd--wrp">
+        <div class="sidebar">
+            <div class="content">
+                <a href="index.html">View products</a>
+                <a href="#" class="active">Add products</a>
+                <a href="">Sign out</a>
+            </div>
+        </div>
+        <div class="content--side">
+            <div class="content--header">
+                Upload
+            </div>
+            <form id="addprdform">
+                <center><h1>Upload a product</h1></center>
+                <div>
+                    <input id="prdnnnm" type="text" placeholder="product name" name="name" required>
+                </div>
+                <div>
+                    <input id="prdimgg" type="text" placeholder="product image url" name="imgurl" required>
+                </div>
+                <div>
+                    <input id="prdprc" type="number" placeholder="product price" name="price" required>
+                </div>
+                <div>
+                    <input id="prdrtt" type="number" placeholder="product rating" name="rating" required>
+                </div>
+                <div>
+                    <textarea id="prdddd" cols="30" rows="5" placeholder="product description" name="desc" required></textarea>
+                </div>
+                <button>Upload</button>
+            </form>
+        </div>
+    </div>
+    <script src="addproduct.js"></script>
+</body>
+
+</html>
